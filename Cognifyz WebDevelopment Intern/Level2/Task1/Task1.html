@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task1 with Bulma</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+        }
+        .section {
+            /* background-image: url('./Assets/cognilogo.png'); */
+            background-color: #b2b2b2;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            padding: 4rem 1.5rem;
+            color: #ffffff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+        .card-image img {
+            width: 100%;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .card-content {
+            text-align: center;
+        }
+        .button {
+            margin-top: 1rem;
+            transition: background-color 0.2s;
+        }
+        .button:hover {
+            background-color: #2d572c;
+        }
+    </style>
+</head>
+<body>
+    <section class="section">
+        <div class="container">
+            <h1 class="title has-text-centered">Task1 at Level 2</h1>
+            <div class="columns is-multiline is-centered">
+                <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="Assets/card1.jpg" alt="Card1">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Card1</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur consectetur harum odit voluptatem totam facilis cum veniam.</p>
+                            <a href="#" class="button is-success">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="Assets/card3.jpg" alt="Card2">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Card2</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur consectetur harum odit voluptatem totam facilis cum veniam.</p>
+                            <a href="#" class="button is-success">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="Assets/card4.jpg" alt="Card3">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Card3</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur consectetur harum odit voluptatem totam facilis cum veniam.</p>
+                            <a href="#" class="button is-success">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-one-quarter-desktop is-half-tablet is-full-mobile">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="Assets/card3.jpg" alt="Card4">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <p class="title is-4">Card4</p>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur consectetur harum odit voluptatem totam facilis cum veniam.</p>
+                            <a href="#" class="button is-success">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bulma@0.9.3/js/bulma.js"></script>
+</body>
+</html>
